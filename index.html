@@ -17,33 +17,64 @@
 	<div class="container content">
 <form class="form-horizontal" method="post" id="form">
 	<div class="form-group">
-		<label for="name" class=" control-label">Фамилия Имя Отчество ребенка <span class="red">*</span></label>
+		<label for="name" class="col-sm-5 control-label">Фамилия Имя Отчество ребенка <span class="red">*</span></label>
 		<div class="col-sm-6">
-			<input type="text" class="form-control" id="name" name="name" placeholder="Имя" pattern="[a-zA-Zа-яА-ЯёЁ ]+" required>
+			<input type="text" class="form-control" id="name" name="name" placeholder="Фамилия Имя Отчество ребенка" pattern="[а-яА-ЯёЁ ]+" required>
 			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="email" class="col-sm-2 control-label">Email <span class="red">*</span></label>
+		<label for="name" class="col-sm-5 control-label">Дата рождения ребенка <span class="red">*</span></label>
 		<div class="col-sm-6">
-			<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+			<input type="date" class="form-control" id="datbird" name="datbird" placeholder="Дата рождения ребенка" pattern="[а-яА-ЯёЁ ]+" required>
 			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="phone" class="col-sm-2 control-label">Телефон <span class="red">*</span></label>
+		<label for="name" class="col-sm-5 control-label">Фамилия Имя Отчество мамы <span class="red">*</span></label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" id="namemom" name="namemom" placeholder="Фамилия Имя Отчество мамы" pattern="[а-яА-ЯёЁ ]+" required>
+			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="phone" class="col-sm-5 control-label">Номер телефона <span class="red">*</span></label>
 		<div class="col-sm-6">
 			<input type="tel" class="form-control" id="phone" name="phone" placeholder="Телефон в формате (XXX) XXX-XX-XX" pattern="\(\d{3}\) \d{3}-\d{2}-\d{2}" required>
 			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 		</div>
 	</div>
+
 	<div class="form-group">
-		<label for="url" class="col-sm-2 control-label">Сайт <span class="red">*</span></label>
+		<label for="email" class="col-sm-5 control-label">Адрес электронной почты <span class="red">*</span></label>
+		<div class="col-sm-6">
+			<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="url" class="col-sm-5 control-label">Инстаграмм <span class="red">*</span></label>
 		<div class="col-sm-6">
 			<input type="url" class="form-control" id="url" name="url" placeholder="Сайт" required>
 			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 		</div>
 	</div>
+	<div class="form-group">
+		<label for="name" class="col-sm-5 control-label">Фамилия Имя Отчество папы <span class="red">*</span></label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" id="namedad" name="namedad" placeholder="Фамилия Имя Отчество папы" pattern="[а-яА-ЯёЁ ]+" required>
+			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="phone" class="col-sm-5 control-label">Номер телефона <span class="red">*</span></label>
+		<div class="col-sm-6">
+			<input type="tel" class="form-control" id="phone" name="phone" placeholder="Телефон папы в формате (XXX) XXX-XX-XX" pattern="\(\d{3}\) \d{3}-\d{2}-\d{2}" required>
+			<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+		</div>
+	</div>
+
 	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-6">
 				<button type="submit" id="submit" class="btn btn-primary">Отправить</button>
