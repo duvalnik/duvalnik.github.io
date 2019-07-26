@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>index.html</title>
+</head>
+<body>
+<p class="MsoNormal" style="text-align: center;"
+ align="center"><b style=""><span
+ style="font-size: 16pt; line-height: 107%;" lang="EN-US">HTTP
+</span></b><b style=""><span
+ style="font-size: 16pt; line-height: 107%;">протокол.<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><span
+ style="" lang="EN-US">HTTP</span><span
+ lang="EN-US"> </span>(англ.
+HyperText Transfer Protocol &mdash; &laquo;протокол передачи
+гипертекста&raquo;) протокол прикладного
+уровня был изобретен в 90х годах Тимом Бернерсоном-Ли. Создавался для
+удобства
+доступа к большому количеству данных лаборатории. Сам протокол решает
+проблему
+стандартизации передачи данных. Также этот протокол используется в
+качестве &laquo;транспорта&raquo;
+для других протоколов прикладного уровня. <o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">По
+данному протоколу обмен
+сообщениями проходит по схеме &laquo;Запрос-Ответ&raquo;. Он
+базируется на клиент серверной
+архитектуре. Зачастую в качестве клиента используется браузер а в
+качестве
+сервера ресурс к которому предоставляется доступ. Также могут быть
+посредники (Прокси
+сервера) которые могут являться в качестве сервера и клиента
+одновременно.<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">В
+данном протоколе существует
+несколько методов передачи данных (<span style="" lang="EN-US">OPTIONS</span>,
+<span style="" lang="EN-US">GET</span>,
+<span style="" lang="EN-US">HEAD</span>, <span
+ style="" lang="EN-US">POST</span>, <span
+ style="" lang="EN-US">PUT</span>, <span
+ style="" lang="EN-US">PATCH</span>,
+<span style="" lang="EN-US">DELETE</span>, <span
+ style="" lang="EN-US">TRACE</span>, <span
+ style="" lang="EN-US">CONNECT</span>) но в
+глобальной сети интернета
+в основном используются только GET и POST.<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">Метод
+GET заключается в том, что
+данные передаваемые на сервер передаются вместе с адресом ресурса через
+специальный разделитель &laquo;?&raquo; из недостатков такого
+метода это открытость
+передачи данных (легко перехватить и прочитать) и ограниченный объем
+передаваемых
+данных.<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">Метод
+POST использует неявную
+передачу данных и используется там где приходится скрывать передаваемую
+информацию. Инициируется данная передача через специальные элементы
+формы на
+странице ресурса.<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">В
+ответе кроме содержимого
+передаваемых данных также клиенту передается трехзначный код состояния,
+который
+информирует клиенту о состоянии процесса передачи. На данный момент
+есть 5
+классов состояния:<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">1хх
+Информирование о процеесе
+передачи<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">2хх
+Информирование о успешном
+принятии и обработки запроса клиента.<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">3хх
+Сообщает клиенту что
+необходимо для успешного выполнения операции выполнить другой запрос по
+другому
+адресу<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">4хх
+Указание ошибок на стороне
+клиента.<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">5хх
+Информация об ошибках на
+стороне сервера.<o:p></o:p></p>
+<p class="MsoNormal" style="text-align: justify;">Клиент
+инициирует соединение при
+помощи запроса который отправляется на сервер. Сервер всегда находится
+в
+состоянии ожидания этих запросов. При получении запроса его
+обрабатывает и
+возвращает результат Клиенту с кодом состояния<o:p></o:p></p>
+</body>
+</html>
